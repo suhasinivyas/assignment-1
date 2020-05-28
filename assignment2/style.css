@@ -1,0 +1,92 @@
+body{
+  text-align:center;
+  text-transform: capitalize;
+  background: powderblue;
+
+}
+h1
+{
+  text-shadow: 1.5px 1.5px;
+}
+.main{
+  margin: 0px;
+  width: 1480px;
+  height: 870px;
+  border: 2px ridge black;
+}
+.box{
+  display: inline-block;
+}
+.myth{
+  display: inline-block;
+  margin: 40px 10px;
+  padding:  19px 10px;
+  width: 400px;
+  height: 450px;
+  text-align: center;
+  background-image: url("myth.jpg");
+  background-size: cover;
+  color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.fiction{
+  display: inline-block;
+  margin: 40px 10px;
+  padding:  19px 10px;
+  width: 380px;
+  color: darkblue;
+  height: 450px;
+  text-align: center;
+  background-image: url("fiction.jpg");
+  background-size: auto;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+.horror{
+  display: inline-block;
+  margin: 40px 10px;
+  padding:  19px 10px;
+  width: 380px;
+  height: 450px;
+  text-align: center;
+  background-image: url("horror.jpg");
+  background-size: cover;
+  color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.outer .new
+{
+  position: absolute;
+  margin: -100px 30px 30px 40px;
+  padding: 50px 55px 50px 50px;
+  border: 15px;
+  background-color:white;
+  font-style: italic;
+  font-weight: bold
+}
+h2.horror:hover {
+  color: red;
+}
+h2.myth:hover {
+  color: orange;
+}
+h2.fiction:hover {
+  color: skyblue;
+}
+h2.myth:visited {
+  color: default;
+}
+h2.horror:visited {
+  color: default;
+}
+h1[class="last"]
+{
+  margin: 70px 10px;
+}
+.main1
+{
+  margin: 10px 10px 10px 90px;
+  width: 1300px;
+  height: 650px;
+  border: 2px ridge black;
+}
